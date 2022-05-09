@@ -1,12 +1,12 @@
 INSERT INTO departments (name)
 VALUES 
-('Adminstration'), 
-('Learning and development'),
-('IT services');
+("Admin"),
+("Learning and development"),
+("IT services");
 
 INSERT INTO roles (title, salary, department_id)
 VALUES 
-('CEO', 125000, 1),
+("CEO", 125000, 1),
 ("Production", 70000, 1),
 ("Research and Development", 100, 1),
 ("Marketing", 65000, 2),
@@ -22,4 +22,4 @@ VALUES
 
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id, is_manager)
-VALUES  
+VALUES 
